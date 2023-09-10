@@ -90,7 +90,7 @@ class StoryViewerScreen extends StatelessWidget {
         child: Column(
           children: [
             GestureDetector(
-              onTap: ()  => speak("hi Nourin NO!"),
+              onTap: ()  => speak("hi there! How are you?!"),
               child: Image.asset(
                 story.coverImage,
                 width: double.infinity,
@@ -130,12 +130,12 @@ List<Story> storyList = [
   Story(
     title: 'The Adventure of Alex',
     coverImage: 'assets/adventure.jpg',
-    content: 'Once upon a time...',
+    content: 'Once a panda eating bambo, and it was thinking of bambo in graph theory. In graph theory, bambo is a tree where it can have at max 2 leaf nodes and each node can have at max 2 edges...',
   ),
   Story(
     title: 'The Adventure of winter',
-    coverImage: 'assets/adventure.jpg',
-    content: 'Once upon a time...',
+    coverImage: 'assets/bear.jpg',
+    content: 'Once upon a time, there was a girl named arya stark of house stark. she was the many faces god...',
   ),
   // Add more stories here
 ];
